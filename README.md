@@ -2,5 +2,4 @@
 
 Readme Image Test
 
-![Malerei](https://github.com/Lodi040/Lodi040.github.io/issues/1#issuecomment-1011987703)
-![Instagram] (https://github.com/Lodi040/Lodi040.github.io/issues/1#issuecomment-1011986957)
+![1646917_instagram_photo_icon](https://user-images.githubusercontent.com/97630592/149310373-44e5afcb-50f7-4cc8-a26a-5cd7717f1782.png)
