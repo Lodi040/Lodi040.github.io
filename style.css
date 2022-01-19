@@ -1,25 +1,91 @@
 html {
-  background: rgb(221, 221, 221);
-}
-
-body {
-  background-color: white;
-  max-width: 1280px;
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0 auto;
-}
-
-nav {
-  height: 10vh;
-  width: 99vw;
-  background-color: white;
+    background: rgb(221, 221, 221);
+  }
   
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  body {
+    background-color: white;
+    max-width: 100vw;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+
+    display: grid;
+
+    grid-template-rows: 10vh 15vh 65vh 10vh;
+    grid-template-columns: 33vw 33vw 33vw;
+  }
   
-  position: sticky;
-  top: 0;
-  border: 1px solid grey;
-}
+  nav {
+    grid-area: 1/1/2/4;
+    height: 10vh;
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    position: sticky;
+    top: 0;
+    border: 1px solid grey; 
+  }
+
+  .ce {
+    margin: 45vw;
+  }
+
+  p {
+    background-color: rgb(255, 255, 255);
+    grid-area: 2/1/3/4;
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .Malerei {
+    grid-area: 3/1/4/2;
+    
+    }
+
+  .Festival {
+    grid-area: 3/2/4/3;
+  }  
+
+  .Video {
+    grid-area: 3/3/4/4;
+  }
+
+  figure {
+    width: 400px;
+    height: 450px;
+    filter: grayscale(100%);
+    border: 2px solid rgb(255, 255, 255);
+    overflow: hidden; 
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+ 
+  figure:hover {
+    filter: grayscale(0%);
+  }
+
+  figcaption {
+    text-align: center;
+    position: absolute;
+    font-size: x-large;
+    color: white;
+  }
+
+  
+
+  footer {
+    grid-area: 4/1/5/4;
+    height: 10vh; 
+    width: 100vw;
+    background-color: white;
+    border: 1px solid rgb(0, 0, 0);
+    display:  flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
