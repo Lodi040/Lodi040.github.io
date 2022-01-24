@@ -5,7 +5,7 @@ html {
   body {
     background-color: white;
     max-width: 100vw;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Avenir Light, Helvetica, sans-serif;
     margin: 0 auto;
 
     display: grid;
@@ -25,12 +25,24 @@ html {
     
     position: sticky;
     top: 0;
-    border: 1px solid grey; 
+    
   }
 
   .ce {
     margin: 45vw;
   }
+
+  .mail {
+    margin-right: 10px;
+    margin-left: 5px;
+    }
+  
+  .insta {
+      margin-right: 5px;
+      margin-left: 5px;
+    }
+
+
 
   p {
     background-color: rgb(255, 255, 255);
@@ -55,6 +67,7 @@ html {
   figure {
     width: 400px;
     height: 450px;
+    border-radius: 45px;
     filter: grayscale(100%);
     border: 2px solid rgb(255, 255, 255);
     overflow: hidden; 
@@ -70,6 +83,8 @@ html {
   }
 
   figcaption {
+    font-family: California Sun, Helvetica, sans-serif;
+      text-shadow: 0.1em 0.1em #333;
     text-align: center;
     position: absolute;
     font-size: x-large;
@@ -82,8 +97,9 @@ html {
     grid-area: 4/1/5/4;
     height: 10vh; 
     width: 100vw;
+    font-family: Avenir Light, Helvetica, sans-serif;
     background-color: white;
-    border: 1px solid rgb(0, 0, 0);
+    
     display:  flex;
     align-items: center;
     justify-content: center;
